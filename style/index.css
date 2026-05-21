@@ -1,21 +1,141 @@
-p{
-    color: red;
-    font-size: 20px;
-}
-.azul{
-    color: azul;
+body {
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    color: green;
+
+.decorativo {
+    width: 3%;
+    background-color: rgb(37, 103, 158);
 }
-h3{
-    font-size: 20px;
-    color: red;
-    font-style: italic;
+
+
+.Resumo {
+    width: 30%;
+    background-color: rgb(84, 87, 131);
+    padding: 3%;
+    color: white;
 }
-#colorado{
+
+
+.infos_pessoais {
+    width: 67%;
+    padding: 40px;
+    background-color: rgb(230, 235, 245);
+}
+
+
+.identificacao {
+    text-align: center;
+}
+
+.identificacao img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.identificacao h1 {
+    font-size: 50px;
+    margin: 10px 0 0;
+}
+
+.identificacao h2 {
+    font-size: 35px;
+    margin: 0;
+}
+
+.identificacao p {
     font-size: 20px;
-    color: red;
-    font-style: italic;
+}
+
+
+.contatos {
+    margin-top: 30px;
+}
+
+.contatos div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.contatos img {
+    width: 28px;
+    height: 28px;
+}
+
+
+.idiomas {
+    margin-top: 40px;
+}
+
+.linha-idioma {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.linha-idioma p {
+    width: 120px;
+}
+
+.niveis {
+    display: flex;
+    gap: 8px;
+}
+
+.bolinha {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.bolinha_azul {
+    background-color: rgb(37, 103, 158);
+}
+
+.bolinha_cinza {
+    background-color: lightgray;
+}
+
+/* TÍTULOS */
+.titulo-secao,
+.titulo-section,
+.perfil,
+.informacoes p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 5%;
+}
+
+
+.Habilidades {
+    margin-top: 30px;
+}
+
+
+.Educacao {
+    margin-top: 40px;
+    padding-left: 5%;
+}
+
+.ensino {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tecnico{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.radio{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
 }
